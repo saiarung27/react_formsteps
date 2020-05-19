@@ -6,6 +6,9 @@ import  TextField from 'material-ui/TextField';
 import AppBar from 'material-ui/AppBar';
 import RaisedButton from 'material-ui/RaisedButton';
  export class FormUserDetails extends Component{
+     constructor(props){
+         super(props)
+     }
     continue = e => {
         e.preventDefault();
         this.props.nextStep();
